@@ -1,0 +1,41 @@
+.navbar-inverse {background-color: #337ab7;border-color:#337ab7;border-radius: 0px;height:50px;width:100%;position: fixed;}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+color: #fff;background-color: #0e364c;}
+
+.navbar-inverse .navbar-nav>li>a {color:#ffffff;font-family: 'Open Sans', sans-serif;}
+.navbar-inverse .navbar-brand { color:#ffffff;}
+.menu { display:none;}
+
+@media all and (max-width:768px){
+    
+.navbar-inverse .drop_menu {display: block;visibility: visible;width: 110px;height:1000px;padding:0px 20px;position: absolute;right:-100px;
+transition:all ease 0.5s;border-top: 0px solid;cursor: pointer;}
+
+a.menu { display:block !important;margin: 9px 2px;float: right;color: #00bcd4; border:0px solid; background:none; font-size:30px;width:27px;position: relative;
+cursor:pointer;}
+
+.drop_menu1 { display: block;visibility: visible;width:250px;height:1000px;padding:5px 30px;position: absolute;right:0 !important;
+background-color: #0e364c !important; transition:all ease 0.5s;border-top: 0px solid;cursor: pointer;top: 50px;}
+
+}
+
+/*login register*/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+/****** LOGIN MODAL ******/
+.log-section {padding: 30px;max-width: 350px;width: 100% !important;background-color: #F7F7F7;margin: 0 auto;border-radius: 2px;
+box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);overflow: hidden;font-family: roboto;}
+.log-section h1 {text-align: center;font-size: 1.8em;font-family: roboto;color:#337ab7;}
+.log-section input[type=submit] {width: 100%;display: block;margin-bottom: 10px;position: relative;}
+.log-section input[type=text], input[type=password] {height: 44px;font-size: 16px;width: 100%;margin-bottom: 10px;-webkit-appearance: none;
+background: #fff;border: 1px solid #d9d9d9;border-top: 1px solid #c0c0c0;padding: 0 8px;box-sizing: border-box;-moz-box-sizing: border-box;}
+.log-section input[type=text]:hover, input[type=password]:hover {border: 1px solid #b9b9b9;border-top: 1px solid #a0a0a0;
+-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);}
+.loginmodal {text-align: center;font-size: 14px;font-family: 'Arial', sans-serif;font-weight: 700;height: 36px;padding: 0 8px;}
+.loginmodal-submit { border: 0px;color: #fff;text-shadow: 0 1px rgba(0,0,0,0.1); background-color:#337ab7;padding: 17px 0px;font-family: roboto;}
+.loginmodal-submit:hover {border: 0px;text-shadow: 0 1px rgba(0,0,0,0.3);background-color:#5882a3;color:#ffffff;}
+.log-section a {text-decoration: none;color: #666;font-weight: 400;text-align: center;display: inline-block;opacity: 0.6;
+transition: opacity ease 0.5s;} 
+.login-help{font-size: 12px;}
